@@ -47,7 +47,7 @@ axiosInstanceBack.interceptors.response.use(
       window.location = "/login";
     } else if (error.response.status === 401) {
       return axios
-        .post(`${BASE_URL_BACK_SERVER}/api/token/refresh/`, {
+        .post(`${BASE_URL_BACK_SERVER}api/token/refresh/`, {
           refresh: localStorageObj._getRefreshToken(),
         })
         .then((response) => {

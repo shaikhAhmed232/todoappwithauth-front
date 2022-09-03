@@ -4,7 +4,7 @@ import { BASE_URL_BACK_SERVER } from "../../data/_variables";
 
 export async function loginUser(body, csrfToken) {
   const response = await axios.post(
-    `${BASE_URL_BACK_SERVER}/user/login/`,
+    `${BASE_URL_BACK_SERVER}user/login/`,
     body
     // {
     //   headers: {

@@ -33,7 +33,6 @@ function Login() {
             res.data.tokens.refresh
           );
           setShouldFetch(true);
-          console.log(res);
           router.push("/");
           // mutateCsrf();
         }
