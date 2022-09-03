@@ -3,7 +3,7 @@ import React, { Component, useContext } from "react";
 import { useRouter } from "next/router";
 import { AuthContext } from "../../../context/AuthContext";
 
-function withAuth(Component) {
+function WithAuth(Component) {
   function WithAuthComponent(props) {
     const { isAuthenticated, authValidating } = useContext(AuthContext);
     if (authValidating) {
@@ -17,4 +17,4 @@ function withAuth(Component) {
   return WithAuthComponent;
 }
 
-export default withAuth;
+export default WithAuth;

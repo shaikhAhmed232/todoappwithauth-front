@@ -5,7 +5,6 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
 import AuthContextProvider from "../context/AuthContext";
-import GlobalMsgContextProvider from "../context/GlobalMsgContext";
 // import CsrfContextProvider from "../context/CsrfContext";
 
 function MyApp({ Component, pageProps }) {

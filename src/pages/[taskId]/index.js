@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { BASE_URL_BACK_SERVER } from "../../data/_variables";
 
-import MainLayout from "../../components/common/MainLayout";
+import MainLayout from "../../components/Common/MainLayout";
 // import CustButton from "../../components/Common/CommonComp/CustButton";
 import Task from "../../components/Task/Task";
 

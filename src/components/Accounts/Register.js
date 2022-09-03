@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { inputChangeHandler } from "../../handlers/common/inputChangeHandler";
+import { inputChangeHandler } from "../../handlers/commonHandlers/inputChangeHandler";
 // import { CsrfContext } from "../../context/CsrfContext";
 import { axiosInstanceBack } from "../../data/axios";
 

@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 import localStorageObj from "../../data/localStorageObj";
-import { inputChangeHandler } from "../../handlers/common/inputChangeHandler";
-import { loginUser } from "../../handlers/common/userAuth";
+import { inputChangeHandler } from "../../handlers/commonHandlers/inputChangeHandler";
+import { loginUser } from "../../handlers/commonHandlers/userAuth";
 import { AuthContext } from "../../context/AuthContext";
 // import { CsrfContext } from "../../context/CsrfContext";
 

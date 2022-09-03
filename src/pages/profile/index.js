@@ -1,9 +1,7 @@
 import React, { useContext } from "react";
-import MainLayout from "../../components/common/MainLayout";
+import MainLayout from "../../components/Common/MainLayout";
 
-import CustButton from "../../components/Common/CommonComp/CustButton";
-
-import withAuth from "../../components/Common/HOD/WithAuth";
+import WithAuth from "../../components/Common/HOD/WithAuth";
 import { AuthContext } from "../../context/AuthContext";
 
 function Profile() {
@@ -40,4 +38,4 @@ function Profile() {
   );
 }
 
-export default withAuth(Profile);
+export default WithAuth(Profile);

@@ -3,7 +3,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { useRouter } from "next/router";
 import { mutate } from "swr";
 
-import { inputChangeHandler } from "../../handlers/common/inputChangeHandler";
+import { inputChangeHandler } from "../../handlers/commonHandlers/inputChangeHandler";
 import { TaskContext } from "../../context/GetTaskContext";
 // import { CsrfContext } from "../../context/CsrfContext";
 import { axiosInstanceBack } from "../../data/axios";

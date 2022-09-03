@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useContext } from "react";
-import mutate from "swr";
 
 import { AuthContext } from "../context/AuthContext";
 

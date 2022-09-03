@@ -5,7 +5,7 @@ import { mutate } from "swr";
 import { TodoListContext } from "../../../context/GetTodoListContext";
 // import { CsrfContext } from "../../../context/CsrfContext";
 
-import { inputChangeHandler } from "../../../handlers/common/inputChangeHandler";
+import { inputChangeHandler } from "../../../handlers/commonHandlers/inputChangeHandler";
 
 function TodoForm() {
   // const { csrfToken, mutateCsrf } = useContext(CsrfContext);
