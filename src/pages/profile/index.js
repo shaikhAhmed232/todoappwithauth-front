@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import MainLayout from "../../components/Common/MainLayout";
 
-import WithAuth from "../../components/Common/HOD/WithAuth";
+import WithAuth from "../../components/Common/HOD/withAuth";
 import { AuthContext } from "../../context/AuthContext";
 
 function Profile() {
